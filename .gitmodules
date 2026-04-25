@@ -1,0 +1,6 @@
+[submodule "deps/mmseqs2"]
+	path = deps/mmseqs2
+	url = https://github.com/soedinglab/mmseqs2.git
+[submodule "deps/protenix"]
+	path = deps/protenix
+	url = https://github.com/bytedance/Protenix.git
