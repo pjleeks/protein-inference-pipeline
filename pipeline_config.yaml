@@ -1,0 +1,6 @@
+pipeline_flow:
+  - step: "msa_generation"
+    config: "configs/search.yaml"
+  - step: "protein_folding"
+    engine: "protenix"
+    config: "configs/inference.yaml"
