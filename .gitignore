@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# MMseqs2 Build & Temp
+deps/mmseqs2/build/
+tmp/
+*.idx
+*.db
+*.db_h
+
+# Protenix Outputs
+results/
+*.pdb
+*.json
