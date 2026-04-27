@@ -1,0 +1,12 @@
+# MMseqs2 Advanced Defaults
+mmseqs:
+  sensitivity: 7.5          # Default is usually 5.7
+  iterations: 3             # Profile-based search for distant homologs
+  eval_cutoff: 1e-3         # Stricter significance threshold
+
+# Protenix Inference Defaults
+protenix:
+  model_name: "protenix_base_default_v1.0.0"
+  n_cycle: 12               # Higher reasoning for complex folds
+  diffusion_steps: 200      # High-fidelity sampling
+  samples_per_seed: 20      # Broad search of the conformational space
